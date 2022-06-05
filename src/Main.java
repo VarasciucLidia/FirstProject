@@ -21,15 +21,15 @@ public class Main {
         System.out.println("The result of \"-5 + 8 * 6\" is: " + total1);
 
         //b. (55+9) % 9
-        double total2= (55+9) % 9;
+        float total2= (55+9) % 9;
         System.out.println("The result of \"(55+9) % 9\" is: " + total2);
 
         //c. 20 + -3*5 / 8
-        double total3= 20 + -3*5 / 8;
+        float total3= 20 + -3*5 / 8;
         System.out.println("The result of \"20 + -3*5 / 8\" is: " + total3);
 
         //d. 5 + 15 / 3 * 2 - 8 % 3
-        double total4=5 + 15 / 3 * 2 - 8 % 3;
+        float total4=5 + 15 / 3 * 2 - 8 % 3;
         System.out.println("The result of \"5 + 15 / 3 * 2 - 8 % 3\" is: " + total4);
     }
 }
